@@ -4,6 +4,8 @@ In this repo, we're going to apply a ULMFiT approach to predict sentiment toward
 
 I wanted to focus as much as I could on explanations that were both intuitive and detailed. If you're not particularly advanced with deep learning and reading research papers, it can be really hard to balance out all the moving parts in a cutting-edge AI problem/solution. I'm confident that anybody can do it, but the process can be inefficient and frustrating and if you don't know what you're looking for. 
 
+**This repo focuses on the problem-solving, intuitions, and actual process of applying ULMFiT to a novel problem**.
+
 There are three notebooks in this repo that are of interest:
 
 ## Twitter US Airline Sentiment Classification - Understanding the problem background
