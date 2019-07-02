@@ -30,4 +30,3 @@ Functions to produce results with the Twitter dataset, and an analysis of our re
 - fastai documentation: https://docs.fast.ai/
 - fastai course: https://course.fast.ai/
 - https://link.springer.com/chapter/10.1007/978-3-319-67008-9_31
-- 
