@@ -1,5 +1,4 @@
-# ULMFiT-Twitter-Sentiment-Analysis
-Applying a ULMFiT approach to the Twitter US Airline Sentiment dataset. 
+# ULMFiT Twitter Sentiment Analysis.
 
 In this repo, we're going to apply a ULMFiT approach to predict sentiment based on a Tweet. The ULMFiT approach was devised by Jeremy Howard and Sebastian Ruder, and it's essentially a transfer learning approach for NLP. 
 
