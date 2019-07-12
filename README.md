@@ -23,7 +23,7 @@ Functions to produce results with the Twitter dataset, and an analysis of our re
 ## References
 - "Universal Language Model Fine-tuning for Text Classification": https://arxiv.org/abs/1801.06146
 - "Regularizing and Optimizing LSTM Language Models": https://arxiv.org/abs/1708.02182
-- "A Comparison of Pre-processing Techniques for Twitter Sentiment Analysis: https://link.springer.com/chapter/10.1007/978-3-319-67008-9_31
+- "A Comparison of Pre-processing Techniques for Twitter Sentiment Analysis": https://link.springer.com/chapter/10.1007/978-3-319-67008-9_31
 - "How transferable are features in deep neural networks?": https://arxiv.org/abs/1411.1792
 - "A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay": https://arxiv.org/abs/1803.09820 
 - "Grokking Deep Learning" - https://www.manning.com/books/grokking-deep-learning
