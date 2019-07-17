@@ -36,6 +36,6 @@ Functions to produce results with the Twitter dataset, and an analysis of our re
 
 ## Some key corrections
 ### ulmfit_runthrough_explanation
-- When fine-tuning the language model, when we initialize the Learner with 'language_model_learner', the comment above should read "pass in **drop_mult=0.3** to specify that our dropouts for the model are with p = 0.3"
+- When fine-tuning the language model, when we initialize the Learner with 'language_model_learner', the comment above should read "pass in **drop_mult=0.3**" to specify that our dropouts for the model are with p = 0.3.
 - In the code cell under "Getting back to the big picture, the comment should read "as discussed before, we choose **'1e-2'** because it's slightly **smaller** than the minimum loss LR"
 
