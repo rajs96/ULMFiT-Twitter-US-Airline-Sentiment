@@ -9,9 +9,9 @@ to know how and when to apply cutting-edge techniques. There are several reasons
 - Reading papers usually assumes background knowledge, which leads to the reader to another dilemma of "what do I need to understand to understand this concept, and what resources to I need to visit to gain this understanding?"
 
 ## The solution
-The truth is, there isn't one solution. You'll learn a lot from grinding through paper implementations yourself. But there are certain strategies that can make the process easier and more fun: that's what I've tried to illustrate in this repository. We're going to go through a very relevant and practical AI technique called ULMFiT.
+The truth is, there isn't one solution. You'll learn a lot from grinding through paper implementations yourself. But there are certain strategies that can make the process easier and more fun: that's what I've tried to illustrate in this repository. In particular, I'm going to walk through how I would go about interpreting a ML research method and how I'd apply it to a new dataset.
 
-In particular, we're going to apply a ULMFiT approach to predict sentiment towards an airline based on a Tweet. The ULMFiT approach was devised by Jeremy Howard and Sebastian Ruder, and it's essentially a transfer learning approach for NLP.
+More specifically, we're going to apply a ULMFiT approach to predict sentiment towards an airline based on a Tweet. The ULMFiT approach was devised by Jeremy Howard and Sebastian Ruder, and it's essentially a transfer learning approach for NLP.
 
 **This repo focuses on the problem-solving, intuitions, and actual process of applying ULMFiT to a novel problem**.
 
