@@ -1,10 +1,21 @@
-# ULMFiT Twitter Sentiment Analysis - US Airlines
+# Demistifying ULMFiT - A state-of-the-art transfer learning approach for NLP
 
-In this repo, we're going to apply a ULMFiT approach to predict sentiment towards an airline based on a Tweet. The ULMFiT approach was devised by Jeremy Howard and Sebastian Ruder, and it's essentially a transfer learning approach for NLP. 
+## The problem
+Many people are interested in getting into machine learning research, but in practice, it can be difficult
+to know how and when to apply cutting-edge techniques. There are several reasons for this:
+- Reading research papers is hard.
+- It can be hard to find well-explained code implementations. Very high barrier to entry.
+- As more complex methods are used, interpretability flies out the window. We start to forget why we're doing things, which is a very bad thing.
+- Reading papers usually assumes background knowledge, which leads to the reader to another dilemma of "what do I need to understand to understand this concept, and what resources to I need to visit to gain this understanding?"
 
-I wanted to focus as much as I could on explanations that were both intuitive and detailed. If you're not particularly advanced with deep learning and reading research papers, it can be really hard to balance out all the moving parts in a cutting-edge AI problem/solution. I'm confident that anybody can do it, but the process can be inefficient and frustrating if you don't know what you're looking for. 
+## The solution
+The truth is, there isn't one solution. You'll learn a lot from grinding through paper implementations yourself. But there are certain strategies that can make the process easier and more fun: that's what I've tried to illustrate in this repository. We're going to go through a very relevant and practical AI technique called ULMFiT.
+
+In particular, we're going to apply a ULMFiT approach to predict sentiment towards an airline based on a Tweet. The ULMFiT approach was devised by Jeremy Howard and Sebastian Ruder, and it's essentially a transfer learning approach for NLP.
 
 **This repo focuses on the problem-solving, intuitions, and actual process of applying ULMFiT to a novel problem**.
+
+**Important note:** This repo was not created to undermine or replace the work that Howard and Ruder have done. It's simply my own interpretation/explanation of their method, which I hope will help others gain a better intuition of cutting-edge machine learning research.
 
 There are three notebooks in this repo that are of interest:
 
@@ -25,7 +36,7 @@ Functions to produce results with the Twitter dataset, and an analysis of our re
 - "Regularizing and Optimizing LSTM Language Models": https://arxiv.org/abs/1708.02182
 - "A Comparison of Pre-processing Techniques for Twitter Sentiment Analysis": https://link.springer.com/chapter/10.1007/978-3-319-67008-9_31
 - "How transferable are features in deep neural networks?": https://arxiv.org/abs/1411.1792
-- "A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay": https://arxiv.org/abs/1803.09820 
+- "A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay": https://arxiv.org/abs/1803.09820
 - "Grokking Deep Learning" - https://www.manning.com/books/grokking-deep-learning
 - Andrew Ng's Deep Learning course: https://www.coursera.org/specializations/deep-learning
 - Stanford's Deep Learning for NLP course: https://cs224d.stanford.edu/
@@ -38,4 +49,3 @@ Functions to produce results with the Twitter dataset, and an analysis of our re
 ### ulmfit_runthrough_explanation
 - When fine-tuning the language model, when we initialize the Learner with 'language_model_learner', the comment above should read "pass in **drop_mult=0.3**" to specify that our dropouts for the model are with p = 0.3.
 - In the code cell under "Getting back to the big picture, the comment should read "as discussed before, we choose **'1e-2'** because it's slightly **smaller** than the minimum loss LR"
-
