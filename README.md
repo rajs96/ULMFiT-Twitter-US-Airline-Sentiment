@@ -1,8 +1,7 @@
 # Demistifying ULMFiT - A state-of-the-art transfer learning approach for NLP
 
 ## The problem
-Many people are interested in getting into machine learning research, but in practice, it can be difficult
-to know how and when to apply cutting-edge techniques. There are several reasons for this:
+Many people are interested in getting into machine learning research, but in practice, it can be difficult.  There are several reasons for this:
 - Reading research papers is hard.
 - It can be hard to find well-explained code implementations. Very high barrier to entry.
 - As more complex methods are used, interpretability flies out the window. We start to forget why we're doing things, which is a very bad thing.
