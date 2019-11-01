@@ -1,4 +1,4 @@
-# Demistifying ULMFiT - A state-of-the-art transfer learning approach for NLP
+# Demystifying ULMFiT - A state-of-the-art transfer learning approach for NLP
 
 ## The problem
 Many people are interested in getting into machine learning research, but in practice, it can be difficult.  There are several reasons for this:
